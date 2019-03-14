@@ -1,0 +1,25 @@
+:matches(html, body){
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	& > div#root {
+		height: 100%;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+:matches(h1, h2, h3, h4, h5, h6, p, ul) {
+	margin-top: 0;
+	margin-bottom: 0;
+}
